@@ -1,0 +1,9 @@
+inherit rubygem
+
+NAME="ruby-pg"
+VERSION=0.14.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby PostgreSQL extension"
+DESCRIPTION="Pg is the Ruby interface to the PostgreSQL RDBMS. It works with
+PostgreSQL 8.3 and later"
