@@ -1,9 +1,14 @@
 inherit rubygem
 
 NAME="ruby-pg"
-VERSION=0.16.0
+VERSION=0.17.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby PostgreSQL extension"
 DESCRIPTION="Pg is the Ruby interface to the PostgreSQL RDBMS. It works with
 PostgreSQL 8.3 and later"
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_pg_CONTENTS="--exclude=sample ${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_pg_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/sample/"
+
