@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-pg"
-VERSION=0.18.2
+VERSION=0.18.4
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby PostgreSQL extension"
